@@ -1,0 +1,338 @@
+/*!
+ *
+ * Copyright 2016 CREATEC(www.createcdigital.com)
+ *
+ */
+
+@charset "utf-8";
+
+/* reset */
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+	margin: 0;
+	padding: 0
+}
+
+html,
+body {
+	height: 100%
+}
+
+body,
+input,
+button,
+textarea,
+select {
+	font-size: 16px;
+	font-family: "SimHei", Tahoma, Helvetica, Arial;
+	color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+	font-weight: normal
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+fieldset,
+img {
+	border: 0
+}
+
+li,
+dd {
+	list-style: none
+}
+
+a {
+	color: #d30000;
+	text-decoration: none
+}
+
+a:hover,
+a:active {
+	text-decoration: underline
+}
+
+section,
+article,
+aside,
+header,
+footer,
+nav,
+dialog,
+figure {
+	display: block
+}
+
+img {
+	max-width: 100%;
+}
+
+
+/* android */
+
+select {
+	-webkit-appearance: none;
+}
+
+
+/*  background-color: transparent; */
+.hide {display: none;}
+/*-- index.html
+====================================================== */
+
+.swiper-container {
+	width: 750px;
+	height: 100%;
+	background: #000;
+	margin: 0 auto;
+	user-select: none;
+	touch-callout: none;
+	-webkit-user-select: none;
+	-webkit-touch-callout: none;
+}
+
+
+/* loading */
+
+body {
+	background: #000;
+	background: -moz-radial-gradient(circle, #000, #000);
+	background: #000;
+}
+
+/* p1 */
+
+.p1 {
+	width: 750px;
+	height: 1208px;
+	background: url("../img/p1/bg.jpg");
+}
+
+.p1 .e1-1 {
+	position: absolute;
+	top: 1045px;
+	left: 392px;
+	height: 72px;
+	width: 327px;
+	z-index: 100;
+	background: url("../img/transparent.png");
+}
+
+
+/* p2 */
+.p2 {
+	width: 750px;
+	height: 1208px;
+	background: url("../img/p2/bg.jpg");
+}
+
+.p2 .e2-1 {
+	position: absolute;
+	z-index: 10;
+	width: 339px;
+	height: 339px;
+	left:203px;
+	top:253px;
+	background: url("../img/p2/e2-1.jpg");
+}
+.p2 .e2-2 {
+	position: absolute;
+	z-index: 20;
+	width: 339px;
+	height: 339px;
+	opacity: 0;
+}
+.p2 .in-1 {
+	position: absolute;
+	font-family: Microsoft YaHei, "微软雅黑", "黑体", "宋体", Arial;
+	height: 49px;
+	width: 265px;
+	margin-left: 0px;
+	margin-top: 0px;
+	font-size: 28px;
+	font-weight: bold;
+	background-color: transparent;
+	color: #fff;
+	border: 0;
+	border-color: transparent;
+	text-decoration: none;
+	padding-left: 15px;
+	-webkit-appearance: none;
+
+}
+
+.p2 .e2-3 {
+	position: absolute;
+	z-index: 30;
+	width: 339px;
+	height: 339px;
+}
+
+.p2 .e2-3 img{
+	position: absolute;
+	width: 339px;
+	height: 339px;
+}
+
+.p2 .e2-4 {
+	position: absolute;
+	top: 709px;
+	left: 272px;
+}
+
+.p2 .e2-5 {
+	position: absolute;
+	top: 773px;
+	left: 272px;
+}
+
+.p2 .e2-6 {
+	position: absolute;
+	top: 836px;
+	left: 272px;
+
+}
+
+.p2 .e2-7 {
+	position: absolute;
+	top: 1016px;
+	left: 212px;
+	height: 72px;
+	width: 327px;
+	z-index: 100;
+}
+
+.p2 span{
+	position: absolute;
+	z-index: 100;
+	font-family: Microsoft YaHei, "微软雅黑", "黑体", "宋体", Arial;
+	height: 18px;
+	width: 750px;
+	color: #000;
+	border: 0;
+	font-size: 18px;
+	border-color: transparent;
+	text-decoration: none;
+	text-align: center;
+	-webkit-appearance: none;
+	top:953px;
+}
+
+/* p3 */
+.p3 {
+	width: 750px;
+	height: 1208px;
+	background: url("../img/p3/bg.jpg");
+}
+
+.p3 .e3-1 {
+	position: absolute;
+	top: 1016px;
+	left: 212px;
+	height: 72px;
+	width: 327px;
+	z-index: 100;
+	background: url("../img/transparent.png");
+}
+
+.p3 span {
+	position: absolute;
+	z-index: 100;
+	font-family: Microsoft YaHei, "微软雅黑", "黑体", "宋体", Arial;
+	height: 28px;
+	width: 218px;
+	color: #000;
+	border: 0;
+	font-size: 28px;
+	border-color: transparent;
+	text-decoration: none;
+	text-align: center;
+	-webkit-appearance: none;
+	top:516px;
+	left: 259px;
+}
+
+/* p4 */
+.p4 {
+	width: 750px;
+	height: 3600px;
+	overflow: auto;
+	background: url("../img/p4/bg.png");
+}
+
+.p4 .e4-1 {
+	position: absolute;
+	top: 3460px;
+	left: 239px;
+	height: 73px;
+	width: 275px;
+	z-index: 100;
+	background: url("../img/transparent.png");
+}
+
+/*mask*/
+
+.mask {
+	display: none;
+	position: absolute;
+	top:center;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 1002;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+
+}
+
+.mask span {
+	margin-top: 50%;
+	color: #A57D2F;
+	font: 65px/65px Helvetica, "Microsoft YaHei", sans-serif;
+	text-align: center;
+	display: block;
+}

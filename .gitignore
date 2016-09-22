@@ -1,0 +1,4 @@
+#ignore files
+weChat/weChatId.php
+db/carsql(1).sql
+db/crocs.sql

@@ -1,0 +1,47 @@
+CACHE MANIFEST 
+# v201609181630
+# ===========cache static resouce
+# p1
+img/p1/bg.png
+
+# p2
+img/p2/bg.png
+img/p2/e-1.png
+
+# p3
+img/p3/bg.png
+
+# p4
+img/p4/bg.png
+
+# other
+img/share-icon.jpg
+img/transparent.png
+
+
+
+# css
+css/app.css
+
+# js
+js/jquery/jquery.min.js
+js/lrzimg/lrz.bundle.js
+js/lrzimg/mobileBUGFix.mini.js
+js/fastclick/fastclick.js
+js/motion/landscape.min.js
+js/app.js
+
+
+
+# ===========Use from network if available 
+NETWORK: 
+db
+tracking
+weChat
+http://res.wx.qq.com
+http://open.weixin.qq.com
+https://api.weixin.qq.com
+http://wx.qlogo.cn
+
+# ===========Fallback content 
+FALLBACK: 
