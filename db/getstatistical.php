@@ -71,7 +71,7 @@
         $stmt->bind_result($name,$city,$phone,$card,$image,$adate);
 
         /* fetch value */
-        $stmt->fetch();
+        //$stmt->fetch();
         $i = 1;
         printf("<br><br><table border='1'>");
         printf("<tr><td>序号</td><td>姓名</td><td>城市</td><td>电话</td><td>卡券</td><td>提交日期</td><td>图片</td></tr>");
